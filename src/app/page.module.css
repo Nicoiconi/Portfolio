@@ -1,0 +1,8 @@
+.main {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to bottom, #1b263b, #415a77, #1b263b);
+  font-family: Roboto;
+}

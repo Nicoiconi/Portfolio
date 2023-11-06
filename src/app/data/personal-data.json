@@ -1,0 +1,51 @@
+{
+  "welcome": "Hola! Mi nombre es Nicolas y desarrollador web full stack.",
+  "introduction": "Me gusta crear  herramientas que aporten valor y faciliten las tareas.",
+  "end": "Si tenes alguna consulta o idea que quieras desarrollar no dudes en contactarme.",
+  "invitation": "Te invito a conocer algunos de mis proyectos y conocimientos.",
+  "email": {
+    "badge": "https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white",
+    "alt": "Gmail logo",
+    "address": "nicolas.iconicoff@gmail.com"
+  },
+  "linkedin": {
+    "badge": "https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white",
+    "alt": "LinkedIn logo",
+    "url": "https://www.linkedin.com/in/nicolas-iconicoff/"
+  },
+  "github": {
+    "badge": "https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white",
+    "alt": "GitHub logo",
+    "url": "https://github.com/Nicoiconi"
+  },
+  "tools": [
+    {
+      "name": "Visual Studio Code",
+      "image": {
+        "src": "https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white",
+        "alt": "Visual Studio Code logo"
+      }
+    },
+    {
+      "name": "Vite",
+      "image": {
+        "src": "https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E",
+        "alt": "Vite logo"
+      }
+    },
+    {
+      "name": "Jira",
+      "image": {
+        "src": "https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=Jira&logoColor=white",
+        "alt": "Jira logo"
+      }
+    },
+    {
+      "name": "ESLint",
+      "image": {
+        "src": "https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white",
+        "alt": "ESLint logo"
+      }
+    }
+  ]
+}

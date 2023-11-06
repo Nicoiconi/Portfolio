@@ -1,0 +1,309 @@
+{
+  "mernStack": {
+    "introduction": "Este conjunto de tencologías me brinda las herramientas necesarias para desarrollar aplicaciones modernas y eficientes de una manera fácil y sencilla",
+    "technologies": [
+      {
+        "name": "MongoDB",
+        "description": "Base de datos NoSQL (Not only SQL) que utiliza el concepto de 'referencia' para relacionar documentos. Almacena datos en formato BJSON (Binary JSON), que proporciona flexibilidad en la estructura de datos. Ofrece servicios de almacenamiento local y en la nube.",
+        "image": {
+          "src": "https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white",
+          "alt": "MongoDB logo"
+        }
+      },
+      {
+        "name": "Express.js",
+        "description": "Funciona como servidor web que recibe las solicitudes del front y las dirige hacia las rutas predefinidas. Ofrece la capacidad y configurar 'middlewares' para un control más completo del flujo de solicitudes, lo que lo convierte en una herramienta versátil para administrar bases de datos y crear APIs.",
+        "image": {
+          "src": "https://img.shields.io/badge/Express%20js-000000?style=for-the-badge&logo=express&logoColor=white",
+          "alt": "Express logo"
+        }
+      },
+      {
+        "name": "React",
+        "description": "Biblioteca de JavaScript que se enfoca en la creación de interfaces dinámicas e interactivas mediante componentes reutilizables. Proporciona herramientas como Redux y Context API, que facilitan la gestión de un estado global y facilitan el intercambio de información entre componentes; y los 'Hooks', que simplifican el manejo del estado y el comportamiento de los componentes.",
+        "image": {
+          "src": "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB",
+          "alt": "React logo"
+        }
+      },
+      {
+        "name": "Node.js",
+        "description": "Es un entorno de tiempo de ejecución para ejecutar código JavaScript en el lado del servidor. Su principal ventaja es la capacidad para hacer que las aplicaciones sean rápidas y eficientes. Permite ejecutar operaciones de forma asíncrona y colocarlas en segundo plano hasta que se completen, lo que permite al servidor continuar procesando tareas y solicitudes sin bloquearse",
+        "image": {
+          "src": "https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white",
+          "alt": "Node js logo"
+        }
+      }
+    ]
+  },
+  "languages": {
+    "main": [
+      {
+        "name": "JavaScript",
+        "image": {
+          "src": "https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E",
+          "alt": "JavaScript logo"
+        }
+      },
+      {
+        "name": "HTML",
+        "image": {
+          "src": "https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white",
+          "alt": "HTML logo"
+        }
+      },
+      {
+        "name": "CSS",
+        "image": {
+          "src": "https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white",
+          "alt": "CSS logo"
+        }
+      }
+    ],
+    "secondary": [
+      {
+        "name": "Java",
+        "image": {
+          "src": "https://img.shields.io/badge/Java-e6e6e6?style=for-the-badge&logo=java&logoColor=black",
+          "alt": "Java logo"
+        }
+      },
+      {
+        "name": "Python",
+        "image": {
+          "src": "https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue",
+          "alt": "Python logo"
+        }
+      }
+    ]
+  },
+  "technologies": {
+    "main": [
+      {
+        "name": "NextJS",
+        "image": {
+          "src": "https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white",
+          "alt": "Next JS logo"
+        }
+      },
+      {
+        "name": "Bootstrap",
+        "image": {
+          "src": "https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white",
+          "alt": "Bootstrap logo"
+        }
+      },
+      {
+        "name": "React",
+        "image": {
+          "src": "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB",
+          "alt": "React logo"
+        }
+      },
+      {
+        "name": "Redux",
+        "image": {
+          "src": "https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white",
+          "alt": "Redux logo"
+        }
+      },
+      {
+        "name": "MongoDB",
+        "image": {
+          "src": "https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white",
+          "alt": "MongoDB logo"
+        }
+      },
+      {
+        "name": "Vercel",
+        "image": {
+          "src": "https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white",
+          "alt": "Vercel logo"
+        }
+      },
+      {
+        "name": "Express.js",
+        "image": {
+          "src": "https://img.shields.io/badge/Express%20js-000000?style=for-the-badge&logo=express&logoColor=white",
+          "alt": "Express logo"
+        }
+      },
+      {
+        "name": "Node js",
+        "image": {
+          "src": "https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white",
+          "alt": "Node js logo"
+        }
+      },
+      {
+        "name": "Axios",
+        "image": {
+          "src": "https://img.shields.io/badge/axios-671ddf?&style=for-the-badge&logo=axios&logoColor=white",
+          "alt": "Axios logo"
+        }
+      },
+      {
+        "name": "JWT",
+        "image": {
+          "src": "https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white",
+          "alt": "JWT logo"
+        }
+      }
+    ],
+    "secondary": [
+      {
+        "name": "TypeScript",
+        "image": {
+          "src": "https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white",
+          "alt": "TypeScript logo"
+        }
+      },
+      {
+        "name": "Jest",
+        "image": {
+          "src": "https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white",
+          "alt": "Jest logo"
+        }
+      },
+      {
+        "name": "Tailwind",
+        "image": {
+          "src": "https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white",
+          "alt": "Tailwind CSS logo"
+        }
+      },
+      {
+        "name": "MySQL",
+        "image": {
+          "src": "https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white",
+          "alt": "MySQL logo"
+        }
+      },
+      {
+        "name": "PostgreSQL",
+        "image": {
+          "src": "https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white",
+          "alt": "PostgreSQL logo"
+        }
+      },
+      {
+        "name": "Cypress",
+        "image": {
+          "src": "https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white",
+          "alt": "Cypress logo"
+        }
+      },
+      {
+        "name": "Material UI",
+        "image": {
+          "src": "https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=white",
+          "alt": "Material UI logo"
+        }
+      },
+      {
+        "name": "Electron",
+        "image": {
+          "src": "https://img.shields.io/badge/Electron-2B2E3A?style=for-the-badge&logo=electron&logoColor=9FEAF9",
+          "alt": "Electron logo"
+        }
+      }
+    ]
+  },
+  "tools": {
+    "main": [
+      {
+        "name": "GitHub",
+        "image": {
+          "src": "https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white",
+          "alt": "GitHub logo"
+        }
+      },
+      {
+        "name": "Visual Studio Code",
+        "image": {
+          "src": "https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white",
+          "alt": "Visual Studio Code logo"
+        }
+      },
+      {
+        "name": "ESLint",
+        "image": {
+          "src": "https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white",
+          "alt": "ESLint logo"
+        }
+      },
+      {
+        "name": "Jira",
+        "image": {
+          "src": "https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=Jira&logoColor=white",
+          "alt": "Jira logo"
+        }
+      },
+      {
+        "name": "Vite",
+        "image": {
+          "src": "https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E",
+          "alt": "Vercel logo"
+        }
+      }
+    ],
+    "secondary": [
+      {
+        "name": "Microsoft Office",
+        "image": {
+          "src": "https://img.shields.io/badge/Microsoft_Office-D83B01?style=for-the-badge&logo=microsoft-office&logoColor=white",
+          "alt": "Microsoft Office logo"
+        }
+      },
+      {
+        "name": "Discord",
+        "image": {
+          "src": "https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white",
+          "alt": "Discord logo"
+        }
+      },
+      {
+        "name": "Slack",
+        "image": {
+          "src": "https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white",
+          "alt": "Slack logo"
+        }
+      },
+      {
+        "name": "Skype",
+        "image": {
+          "src": "https://img.shields.io/badge/Skype-00AFF0?style=for-the-badge&logo=skype&logoColor=white",
+          "alt": "Skype logo"
+        }
+      },
+      {
+        "name": "TeamSpeak",
+        "image": {
+          "src": "https://img.shields.io/badge/TeamSpeak-2580C3?style=for-the-badge&logo=teamspeak&logoColor=white",
+          "alt": "TeamSpeak logo"
+        }
+      },
+      {
+        "name": "Trello",
+        "image": {
+          "src": "https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white",
+          "alt": "Trello logo"
+        }
+      },
+      {
+        "name": "Postman",
+        "image": {
+          "src": "https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white",
+          "alt": "Postman logo"
+        }
+      },
+      {
+        "name": "Prettier",
+        "image": {
+          "src": "https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E",
+          "alt": "Prettier logo"
+        }
+      }
+    ]
+  }
+}

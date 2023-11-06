@@ -1,0 +1,25 @@
+.knowledgeBar{
+  padding: 40px;
+  font-size: large;
+}
+
+.knowledgeTopBar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.botonKnowledge{
+  border-radius: 10px;
+  padding: 6px 10px;
+  color: #0d1b2a;
+  font-weight: bold;
+  background-color: #e0e1dd;
+}
+
+.botonKnowledgePresionado{
+  border: 2px solid #e0e1dd;
+  background-color: #794a88c2;
+  color: #e0e1dd;
+}

@@ -1,0 +1,70 @@
+.buttonsCarouselContainer {
+  position: relative;
+  max-height: 100%;
+}
+
+.imagesContainer {
+  max-width: 100%;
+}
+
+.carouselSlide {
+  opacity: 1;
+  z-index: 1;
+  transition-delay: 0ms;
+  width: 100%;
+  height: 100%;
+}
+
+.nonActive {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.projectImageWordle {
+  /* height: 100%;
+  width: 100%; */
+  min-height: 100px;
+  min-width: 100px;
+  max-height: 200px;
+  max-width: 190px;
+}
+
+.projectImageHbuy {
+  /* height: 100%;
+  width: 100%; */
+  min-height: 100%;
+  min-width: 100%;
+  max-width: 400px;
+  max-width: 400px;
+}
+
+.carouselButton {
+  position: absolute; /* Establece la posición absoluta para los botones */
+  top: 50%; /* Coloca los botones en la mitad superior del contenedor */
+  transform: translateY(-50%); /* Centra verticalmente los botones */
+  background-color: rgb(
+    84,
+    117,
+    133
+  ); /* Puedes personalizar el fondo de los botones */
+  color: #ffffff; /* Puedes personalizar el color de texto de los botones */
+  z-index: 2; /* Controla la superposición de los botones */
+  border: none;
+}
+
+.carousel-button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.previousButton {
+  left: 0; /* Coloca el botón "prev" a la izquierda */
+}
+
+.nextButton {
+  right: 0; /* Coloca el botón "next" a la derecha */
+}

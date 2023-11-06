@@ -1,0 +1,49 @@
+.topBar{
+  color: white;
+}
+
+.link {
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 3px 5px;
+  border-radius: 10px;
+  color: black;
+  background-color: rgb(198, 217, 223);
+  font-size: 22px;
+  padding: 5px 10px;
+}
+
+.link:hover {
+  background-color: rgb(139, 24, 139);
+}
+
+.linkPressed {
+  background-color: rgb(139, 24, 139);
+  color: white;
+}
+
+.homeIcon{
+  color: white;
+}
+
+.homePressed {
+  color: rgb(139, 24, 139);
+}
+
+.githubIcon {
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 4px 3px 2px;
+  color: white;
+}
+
+.linkedinIcon {
+  fill: rgb(0, 0, 255);
+  color: white;
+}
+
+.gmailIcon{
+  border: 1px solid white;
+  border-radius: 6px;
+  background-color: rgb(255, 51, 0);
+}
