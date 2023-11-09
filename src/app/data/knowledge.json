@@ -226,6 +226,13 @@
         }
       },
       {
+        "name": "Postman",
+        "image": {
+          "src": "https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white",
+          "alt": "Postman logo"
+        }
+      },
+      {
         "name": "ESLint",
         "image": {
           "src": "https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white",
