@@ -4,7 +4,7 @@ import Image from "next/image"
 
 export default function TechnologiesContainer() {
 
-  const { languages, technologies } = knowledge
+  const { languages, technologies, tools } = knowledge
 
   return (
     <div className="container-fluid">
@@ -43,6 +43,32 @@ export default function TechnologiesContainer() {
         <div className={`row ${styles.labelsContainer}`}>
           {
             technologies?.main?.map(t => {
+              return (
+                <div
+                  className={`col ${styles.knowledgeTechLogo}`}
+                  key={t.name}
+                >
+                  <Image
+                    src={t.image.src}
+                    alt={t.image.alt}
+                    width={140}
+                    height={40}
+                  />
+                </div>
+              )
+            })
+          }
+        </div>
+      </div>
+
+      <div className={`${styles.knowledgeTechsContainer}`}>
+        <div className={`row ${styles.knowledgeTechsContainerHeader}`}>
+          Mi herramientas preferidas
+        </div>
+
+        <div className={`row ${styles.labelsContainer}`}>
+          {
+            tools?.main?.map(t => {
               return (
                 <div
                   className={`col ${styles.knowledgeTechLogo}`}
