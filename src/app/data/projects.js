@@ -4,6 +4,29 @@ import { wordleGameImages } from "../assets/WordleGame"
 
 export const projects = [
   {
+    name: "Potential Matches",
+    technologies: [
+      "JavaScript",
+      "NextJS",
+      "React",
+      "Redux Toolkit",
+      "Redux Persist",
+      "Axios",
+      "HTML",
+      "CSS",
+      "Tailwind",
+      "Material UI",
+      "Express",
+      "MongoDB",
+      "Mongoose",
+      "Postman",
+      "Node.js",
+    ],
+    description: "Aplicación web diseñada para encontrar el match ideal entre compradores y vendedores. El usuario puede crear publicaciones con precio y por categoría. Cuenta con un panel para comparar publicaciones y crear el match que mas le guste, no permite crear el match si la ganancia es menor o igual 0. Contiene sección de Compradores, Vendedores, Categorías, Publicaciones y Matches. Cada una cuenta con un panel con el listado completo, con filtros y ordenamientos combinados, formulario de creación (con validaciones para evitar duplicados) y vista individual para editar o eliminar.",
+    images: "",
+    github_url: "",
+  },
+  {
     name: "H-Buy",
     technologies: [
       "JavaScript",
@@ -26,7 +49,7 @@ export const projects = [
       "Cloudinary",
       "Nodemailer",
       "Mercado Pago",
-      "Node",
+      "Node.js",
       "SCRUM",
       "GitHub",
       "Trello"
@@ -53,7 +76,7 @@ export const projects = [
       "Postman",
       "Cloudinary",
       "Express",
-      "Node",
+      "Node.js",
     ],
     description: "Aplicación web con solicitudes a RAWG API. La carpeta 'front' contiene una renovación del proyecto original. Landing page con botones de acceso a la vista de video juegos y al formulario de creación. Desde la vista de video juegos se presiona un botón para ejecutar el pedido a la api, si no se ingresa una cantidad (máxima de 40) devuelve 20. Funcionalidades de guardar, buscar y borrar en IndexedDB (base de datos del navegador). Filtros combinados por nombre, género, plataforma y rating. Ordenamientos alfabéticos y por rating. Acceso al detalle del video juego presionando el nombre en la tarjeta, si el juego está guardado en la base de datos renderiza un boton para eliminarlo. Manejo de estado con Context + Hook. Las carpetas 'api' y 'client' son el proyecto original, full stack, con características similares. Diferencias: base de datos relacional con MySQL y Sequelize, Cloudinary (almacenamiento de imágenes en la nube) y el estado se administra con Redux + reducer",
     images: "",
