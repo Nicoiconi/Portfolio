@@ -51,14 +51,18 @@ export default function Proyectos() {
                 <div className="col">
                   <div className={`${lusitana.className} ${styles.projectName}`}>
                     {p?.name}
-                    <a href={p?.github_url} target="_blank">
-                      <IconBrandGithub
-                        width="40"
-                        height="40"
-                        className={`${styles.projectGithubIcon}`}
-                      />
-                    </a>
-
+                    {
+                      !p?.github_url
+                        ? ""
+                        :
+                        <a href={p?.github_url} target="_blank">
+                          <IconBrandGithub
+                            width="40"
+                            height="40"
+                            className={`${styles.projectGithubIcon}`}
+                          />
+                        </a>
+                    }
                   </div>
                 </div>
               </div>
