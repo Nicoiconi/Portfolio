@@ -27,6 +27,30 @@ export const projects = [
     github_url: "",
   },
   {
+    name: "Productos Rurales",
+    technologies: [
+      "JavaScript",
+      "React",
+      "Redux Toolkit",
+      "Redux Persist",
+      "Axios",
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "jspdf",
+      "jspdf-autotable",
+      "Express",
+      "jsonwebtoken",
+      "MongoDB",
+      "Mongoose",
+      "Node.js",
+      "Vercel"
+    ],
+    description: "Sistema de registro de productos para animales rurales. Cada producto es único y enumerado, catalogado por tamaño y raza del animal. Permite generar ingresos de mercadería por proveedor, pedidos y ventas por cliente, con la opción de generar un archivo pdf con todos los datos de la venta. La finalidad es que los clientes cuenten con la información del producto para validar la edad del animal. Acceso mediante usuario y contraseña, token de seguridad para todas las solicitued y base de datos en la nube.",
+    images: "",
+    github_url: ""
+  },
+  {
     name: "H-Buy",
     technologies: [
       "JavaScript",
