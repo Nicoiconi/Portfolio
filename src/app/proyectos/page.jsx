@@ -3,7 +3,7 @@
 import { useState } from "react"
 import styles from "./page.module.css"
 import { projects } from "../data/projects"
-import { IconBrandGithub, IconCaretUp, IconCaretDown } from "@tabler/icons-react"
+import { IconBrandGithub, IconCaretUp, IconCaretDown, IconWorldWww } from "@tabler/icons-react"
 import CarouselProjectImages from "./components/CarouselProjectImages/CarouselProjectImages"
 import { lusitana, montserrat } from "../fonts"
 
@@ -57,6 +57,18 @@ export default function Proyectos() {
                         :
                         <a href={p?.github_url} target="_blank">
                           <IconBrandGithub
+                            width="40"
+                            height="40"
+                            className={`${styles.projectGithubIcon}`}
+                          />
+                        </a>
+                    }
+                    {
+                      !p?.deploy_url
+                        ? ""
+                        :
+                        <a href={p?.deploy_url} target="_blank">
+                          <IconWorldWww
                             width="40"
                             height="40"
                             className={`${styles.projectGithubIcon}`}

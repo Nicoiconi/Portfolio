@@ -1,30 +1,30 @@
 import { hBuyImages } from "../assets/H-Buy"
 import { wordleGameImages } from "../assets/WordleGame"
-
+import { aiImagesToolImages } from "../assets/AI-Images-Tool"
 
 export const projects = [
   {
-    name: "Potential Matches",
+    name: "AI-Images-Tool",
     technologies: [
-      "JavaScript",
+      "TypeScript",
       "NextJS",
       "React",
-      "Redux Toolkit",
-      "Redux Persist",
-      "Axios",
+      "Clerk",
+      "Cloudinary",
+      "Server Actions",
       "HTML",
       "CSS",
       "Tailwind",
-      "Material UI",
-      "Express",
+      "Shadcn-ui",
       "MongoDB",
       "Mongoose",
-      "Postman",
       "Node.js",
+      "Vercel"
     ],
-    description: "Aplicación web diseñada para encontrar el match ideal entre compradores y vendedores. El usuario puede crear publicaciones con precio y por categoría. Cuenta con un panel para comparar publicaciones y crear el match que mas le guste, no permite crear el match si la ganancia es menor o igual 0. Contiene sección de Compradores, Vendedores, Categorías, Publicaciones y Matches. Cada una cuenta con un panel con el listado completo, con filtros y ordenamientos combinados, formulario de creación (con validaciones para evitar duplicados) y vista individual para editar o eliminar.",
-    images: "",
+    description: "Herramienta para editar imágenes con inteligencia artificial de Cloudinary. Mejorar la calidad, cambiar tamaño manteniendo la relación de aspecto, remover objetos, cambiar colores y remover fondos. Login mediante Clerk. Deploy alojado en Vercel. MongoDB para almacenar datos.",
+    images: aiImagesToolImages,
     github_url: "",
+    deploy_url: "https://ai-image-tool.vercel.app/"
   },
   {
     name: "Productos Rurales",
